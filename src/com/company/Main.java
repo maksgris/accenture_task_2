@@ -29,16 +29,27 @@ public class Main {
 
         System.out.println("Please enter a whole number: ");
         int num = input.nextInt();
-        System.out.println(num % 2 != 0);
+        System.out.println(num % 2 == 0);
 
         // Fourth exercise
+
+        System.out.println("Please enter a whole number: ");
+        int num2 = input.nextInt();
+        System.out.println(num2 % 2 != 0);
+
+        // Fifth exercise
 
         System.out.println("Please enter a boolean value: ");
         boolean bl = input.nextBoolean();
         System.out.println("Opposite of \"" + bl + "\" is \"" + !bl + "\"");
 
-        // Fifth exercise
+        // Sixth exercise
 
-        
+        System.out.println("Please enter first number: ");
+        int c = input.nextInt();
+        System.out.println("Please enter second number: ");
+        int d = input.nextInt();
+        System.out.println("a is " + c + " and b is " + d + " -> " + ((c==d) || (c<0 && d>0) || (c>1001 && d>1001)));
+
     }
 }
