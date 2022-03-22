@@ -4,7 +4,6 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         // First exercise
 
         System.out.println("Please enter first number: ");
@@ -26,7 +25,20 @@ public class Main {
         boolean b2 = input.nextBoolean();
         System.out.println("Is b1 and b2 equal ? - " + (b1==b2));
 
-        
+        // Third exercise
 
+        System.out.println("Please enter a whole number: ");
+        int num = input.nextInt();
+        System.out.println(num % 2 != 0);
+
+        // Fourth exercise
+
+        System.out.println("Please enter a boolean value: ");
+        boolean bl = input.nextBoolean();
+        System.out.println("Opposite of \"" + bl + "\" is \"" + !bl + "\"");
+
+        // Fifth exercise
+
+        
     }
 }
